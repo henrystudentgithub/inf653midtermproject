@@ -34,7 +34,6 @@
 		}
 
 
-
 		public function create() {
 			$query = 'INSERT INTO ' . $this->table . '(category) VALUES (:category)';
 
@@ -50,7 +49,6 @@
 			return false;
 		}
 
-		// Update category
 
 		public function update() {
 			$query = 'UPDATE ' . $this->table . ' SET category = :category WHERE id = :id';
