@@ -1,0 +1,5 @@
+SetEnv USERNAME "quotesdb_kwb4_user"
+SetEnv PASSWORD "tUinyojmYt8yjsOnyTHEFmrxoW4AKTdP"
+SetEnv DATABASE_NAME "quotesdb_kwb4"
+SetEnv HOST "dpg-cgcvdf64dad6fr7psp90-a.oregon-postgres.render.com/"
+SetEnv PORT "5432"
