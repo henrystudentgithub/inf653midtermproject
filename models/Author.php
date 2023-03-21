@@ -11,7 +11,6 @@
 		}
 
 
-
 		public function get_one() {
 			$query = 'SELECT
 				id,
@@ -50,7 +49,7 @@
 		}
 
 		public function create() {
-			$query = 'INSERT INTO ' .	$this->table . '(author) VALUES(  :author)';
+			$query = 'INSERT INTO ' . $this->table . '(author) VALUES(  :author)';
 
 			$stmt = $this->conn->prepare($query);
 			$this->author = htmlspecialchars(strip_tags($this->author));
